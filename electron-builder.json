@@ -1,0 +1,21 @@
+{
+  "appId": "com.fernandovz.electron-course",
+  "productName": "ElectronCourse",
+  "directories": {
+    "output": "dist-electron-builder"
+  },
+  "files": [
+    "dist-react/**/*",
+    "dist-electron/**/*"
+  ],
+  "icon": "./desktopIcon.png",
+  "win": {
+    "target": "nsis"
+  },
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": "AppImage"
+  }
+}
